@@ -2,6 +2,8 @@
 An implementation of the game Tetris using C++ and SDL2.
 
 ## Pictures
+<img width="800" alt="obraz" src="https://user-images.githubusercontent.com/13346371/230686177-4d1b31b1-3b28-4912-993a-6bf7ab8732da.png">
+<img width="806" alt="obraz" src="https://user-images.githubusercontent.com/13346371/230686238-1d5d5491-a787-4920-9ddf-0262f3376705.png">
 
 ## Controls
 Use the LEFT and RIGHT arrow keys to move the Tetromino  
