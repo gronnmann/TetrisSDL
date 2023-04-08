@@ -91,6 +91,7 @@ void ResourceManager::drawText(int x, int y, const std::string &text, FontSize s
 
     SDL_RenderCopy(renderer, textTexture, NULL, &dest);
     SDL_FreeSurface(textSurface);
+    SDL_DestroyTexture(textTexture);
 }
 
 void ResourceManager::drawImage(int x, int y, Texture texture, bool aroundCenter) {
@@ -106,6 +107,7 @@ void ResourceManager::drawImage(int x, int y, Texture texture, bool aroundCenter
 
     SDL_RenderCopy(renderer, imageTexture, NULL, &dest);
     SDL_FreeSurface(imageSurface);
+    SDL_DestroyTexture(imageTexture);
 }
 
 void ResourceManager::drawImage(int x, int y, int w, int h, Texture texture, bool aroundCenter) {
@@ -121,4 +123,6 @@ void ResourceManager::drawImage(int x, int y, int w, int h, Texture texture, boo
 
     SDL_RenderCopy(renderer, imageTexture, NULL, &dest);
     SDL_FreeSurface(imageSurface);
+    SDL_DestroyTexture(imageTexture);
+
 }
